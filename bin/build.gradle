@@ -1,0 +1,11 @@
+plugins {
+    id 'swift-application'
+    id 'xcode'
+    id 'xctest'
+}
+
+// Set the target operating system and architecture for this application
+application {
+    // Set the target operating system and architecture for this library
+    targetMachines.add(machines.linux.x86_64)
+}
